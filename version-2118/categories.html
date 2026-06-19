@@ -1,0 +1,601 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>影片分类-精选电影大全</title>
+  <meta name="description" content="提供精选电影大全栏目内容，整合热门、经典和高分影片，片库内容持续补充。">
+  <meta name="keywords" content="精选电影大全,精选影片片单,热门片库,精选电影,电影片单,热门影片,电影更新">
+  <meta name="robots" content="index,follow">
+  <link rel="stylesheet" href="./assets/css/base.css">
+  <link rel="stylesheet" href="./assets/css/site.css">
+</head>
+<body>
+  <header class="sticky top-0 z-50 bg-gradient-to-r from-amber-900 via-yellow-800 to-amber-900 shadow-lg site-header">
+    <nav class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="flex h-16 items-center justify-between">
+        <a class="brand-link" href="index.html" aria-label="精选电影大全">
+          <span class="brand-mark">▶</span>
+          <span class="brand-text">精选电影大全</span>
+        </a>
+        <div class="hidden md:flex md:items-center md:space-x-1">
+          <a class="nav-link " href="index.html">首页</a>
+          <a class="nav-link active" href="categories.html">分类</a>
+          <a class="nav-link " href="ranking.html">排行榜</a>
+          <a class="nav-link " href="search.html">搜索</a>
+        </div>
+        <div class="header-actions">
+          <button class="header-icon-button" type="button" data-toggle-search aria-label="搜索">⌕</button>
+          <button class="header-icon-button md:hidden" type="button" data-toggle-menu aria-label="菜单">☰</button>
+        </div>
+      </div>
+      <div class="header-search" data-search-panel>
+        <form class="header-search-form" action="search.html" method="get">
+          <input name="q" type="search" placeholder="搜索影片、地区、年份或标签" autocomplete="off">
+          <button type="submit">搜索</button>
+        </form>
+      </div>
+      <div class="mobile-menu" data-mobile-menu>
+          <a class="mobile-nav-link " href="index.html">首页</a>
+          <a class="mobile-nav-link active" href="categories.html">分类</a>
+          <a class="mobile-nav-link " href="ranking.html">排行榜</a>
+          <a class="mobile-nav-link " href="search.html">搜索</a>
+          <a class="mobile-nav-link" href="category-hot-selection.html">热门精选</a>
+          <a class="mobile-nav-link" href="category-action-adventure.html">动作冒险</a>
+          <a class="mobile-nav-link" href="category-suspense-thriller.html">悬疑惊悚</a>
+          <a class="mobile-nav-link" href="category-sci-fi-fantasy.html">科幻奇幻</a>
+          <a class="mobile-nav-link" href="category-romance-comedy.html">爱情喜剧</a>
+          <a class="mobile-nav-link" href="category-drama-stories.html">剧情佳作</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="page-hero">
+      <div class="section-inner">
+        <span>Categories</span>
+        <h1>精选影片分类</h1>
+        <p>从热门、类型、地区和观影氛围出发，浏览更完整的精选电影片单。</p>
+      </div>
+    </section>
+    <section class="section-block">
+      <div class="section-inner">
+        <div class="category-grid large-category-grid">
+        <a class="category-tile" href="category-hot-selection.html">
+          <img src="./4.jpg" alt="热门精选" loading="lazy">
+          <span class="category-tile-shade"></span>
+          <span class="category-tile-content">
+            <strong>热门精选</strong>
+            <em>聚合近期热度高、话题集中的精选影片，适合快速发现值得观看的片单内容。</em>
+          </span>
+        </a>
+        <a class="category-tile" href="category-action-adventure.html">
+          <img src="./11.jpg" alt="动作冒险" loading="lazy">
+          <span class="category-tile-shade"></span>
+          <span class="category-tile-content">
+            <strong>动作冒险</strong>
+            <em>集合节奏紧凑、场面感强的动作冒险内容，覆盖高能追逐、冒险探索与热血对决。</em>
+          </span>
+        </a>
+        <a class="category-tile" href="category-suspense-thriller.html">
+          <img src="./6.jpg" alt="悬疑惊悚" loading="lazy">
+          <span class="category-tile-shade"></span>
+          <span class="category-tile-content">
+            <strong>悬疑惊悚</strong>
+            <em>收录谜案、心理悬念、惊悚反转与高压叙事作品，适合偏爱紧张氛围的观众。</em>
+          </span>
+        </a>
+        <a class="category-tile" href="category-sci-fi-fantasy.html">
+          <img src="./1.jpg" alt="科幻奇幻" loading="lazy">
+          <span class="category-tile-shade"></span>
+          <span class="category-tile-content">
+            <strong>科幻奇幻</strong>
+            <em>关注未来想象、平行时空、奇幻设定与视觉创意，呈现更具想象力的观影选择。</em>
+          </span>
+        </a>
+        <a class="category-tile" href="category-romance-comedy.html">
+          <img src="./8.jpg" alt="爱情喜剧" loading="lazy">
+          <span class="category-tile-shade"></span>
+          <span class="category-tile-content">
+            <strong>爱情喜剧</strong>
+            <em>整理轻松、浪漫、治愈和喜剧色彩鲜明的影片，适合日常放松观看。</em>
+          </span>
+        </a>
+        <a class="category-tile" href="category-drama-stories.html">
+          <img src="./3.jpg" alt="剧情佳作" loading="lazy">
+          <span class="category-tile-shade"></span>
+          <span class="category-tile-content">
+            <strong>剧情佳作</strong>
+            <em>以人物命运、情感关系和现实议题为核心，汇集叙事扎实的剧情类内容。</em>
+          </span>
+        </a>
+        <a class="category-tile" href="category-horror-mystery.html">
+          <img src="./10.jpg" alt="恐怖灵异" loading="lazy">
+          <span class="category-tile-shade"></span>
+          <span class="category-tile-content">
+            <strong>恐怖灵异</strong>
+            <em>覆盖恐怖、灵异、惊悚和暗黑氛围影片，提供更具刺激感的片单入口。</em>
+          </span>
+        </a>
+        <a class="category-tile" href="category-crime-war.html">
+          <img src="./5.jpg" alt="犯罪谍战" loading="lazy">
+          <span class="category-tile-shade"></span>
+          <span class="category-tile-content">
+            <strong>犯罪谍战</strong>
+            <em>聚焦犯罪、谍战、警匪、战争和权谋题材，适合偏爱复杂冲突的观众。</em>
+          </span>
+        </a>
+        <a class="category-tile" href="category-animation-family.html">
+          <img src="./12.jpg" alt="动画家庭" loading="lazy">
+          <span class="category-tile-shade"></span>
+          <span class="category-tile-content">
+            <strong>动画家庭</strong>
+            <em>整理适合家庭观看、动画表达或温情向作品，兼具轻松感与故事性。</em>
+          </span>
+        </a>
+        <a class="category-tile" href="category-documentary-music.html">
+          <img src="./7.jpg" alt="纪录音乐" loading="lazy">
+          <span class="category-tile-shade"></span>
+          <span class="category-tile-content">
+            <strong>纪录音乐</strong>
+            <em>收录纪录、音乐、舞台与真实题材内容，适合探索人物、时代和文化现场。</em>
+          </span>
+        </a>
+        <a class="category-tile" href="category-asian-focus.html">
+          <img src="./2.jpg" alt="亚洲影视" loading="lazy">
+          <span class="category-tile-shade"></span>
+          <span class="category-tile-content">
+            <strong>亚洲影视</strong>
+            <em>精选亚洲地区电影与剧集，覆盖多样类型、社会议题和地域风格。</em>
+          </span>
+        </a>
+        <a class="category-tile" href="category-global-cinema.html">
+          <img src="./9.jpg" alt="欧美片库" loading="lazy">
+          <span class="category-tile-shade"></span>
+          <span class="category-tile-content">
+            <strong>欧美片库</strong>
+            <em>汇集欧美地区热门和经典影片，兼顾商业大片、类型佳作与口碑内容。</em>
+          </span>
+        </a>
+        </div>
+      </div>
+    </section>
+    <section class="section-block soft-bg">
+      <div class="section-inner">
+        <div class="section-heading">
+          <div>
+            <span>Featured</span>
+            <h2>分类精选</h2>
+          </div>
+          <a href="search.html">搜索更多</a>
+        </div>
+        <div class="movie-grid">
+        <article class="movie-card compact" data-card data-title="凶险地带 俄罗斯 电影 2017 战争，动作 热门精选 狙击手 切尔诺贝利 对峙 战争 动作" data-year="2017" data-category="hot-selection">
+          <a class="movie-poster" href="movie-0004.html" aria-label="凶险地带">
+            <img src="./4.jpg" alt="凶险地带" loading="lazy">
+            <span class="poster-overlay">立即观看</span>
+          </a>
+          <div class="movie-card-body">
+            <a class="movie-title" href="movie-0004.html">凶险地带</a>
+            <p class="movie-desc">切尔诺贝利石棺内部，一名乌克兰狙击手与俄罗斯特种兵在致命辐射中进行了48小时无声对决。</p>
+            <div class="movie-meta">
+              <span>2017</span>
+              <span>俄罗斯</span>
+              <span>8.8</span>
+            </div>
+            <div class="movie-tags"><span>狙击手</span><span>切尔诺贝利</span><span>对峙</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-card data-title="生死路上 中国香港 电影 2024 警匪剧情 热门精选 卧底 兄弟情 牺牲 宿命 警匪剧情" data-year="2024" data-category="hot-selection">
+          <a class="movie-poster" href="movie-0016.html" aria-label="生死路上">
+            <img src="./16.jpg" alt="生死路上" loading="lazy">
+            <span class="poster-overlay">立即观看</span>
+          </a>
+          <div class="movie-card-body">
+            <a class="movie-title" href="movie-0016.html">生死路上</a>
+            <p class="movie-desc">卧底警察与黑道兄弟交换身份十年，收网那天两人隔着玻璃对视，不知道该抓谁。</p>
+            <div class="movie-meta">
+              <span>2024</span>
+              <span>中国香港</span>
+              <span>9.2</span>
+            </div>
+            <div class="movie-tags"><span>卧底</span><span>兄弟情</span><span>牺牲</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-card data-title="小森林2018 日本 电影 2018 剧情, 治愈 动作冒险 田园生活 美食 自我救赎 剧情 治愈" data-year="2018" data-category="action-adventure">
+          <a class="movie-poster" href="movie-0011.html" aria-label="小森林2018">
+            <img src="./11.jpg" alt="小森林2018" loading="lazy">
+            <span class="poster-overlay">立即观看</span>
+          </a>
+          <div class="movie-card-body">
+            <a class="movie-title" href="movie-0011.html">小森林2018</a>
+            <p class="movie-desc">厌倦都市的女孩回到故乡山村，在四季轮转的料理中，重新找到了与母亲和解的方式。</p>
+            <div class="movie-meta">
+              <span>2018</span>
+              <span>日本</span>
+              <span>8.7</span>
+            </div>
+            <div class="movie-tags"><span>田园生活</span><span>美食</span><span>自我救赎</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-card data-title="歪爱时代第二季 泰国 电视剧 2025 爱情 / 喜剧 / 同性 动作冒险 大学校园 破镜重圆 直播 家庭阻力 爱情 喜剧 同性" data-year="2025" data-category="action-adventure">
+          <a class="movie-poster" href="movie-0023.html" aria-label="歪爱时代第二季">
+            <img src="./23.jpg" alt="歪爱时代第二季" loading="lazy">
+            <span class="poster-overlay">立即观看</span>
+          </a>
+          <div class="movie-card-body">
+            <a class="movie-title" href="movie-0023.html">歪爱时代第二季</a>
+            <p class="movie-desc">毕业在即，曾经甜煞众人的学长学弟情侣，却因一场直播事故濒临分手边缘。</p>
+            <div class="movie-meta">
+              <span>2025</span>
+              <span>泰国</span>
+              <span>9.1</span>
+            </div>
+            <div class="movie-tags"><span>大学校园</span><span>破镜重圆</span><span>直播</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-card data-title="安全没有保障 美国 电影 2024 喜剧、科幻、冒险 悬疑惊悚 时间旅行 独立电影 古怪幽默 编辑部 喜剧 科幻 冒险" data-year="2024" data-category="suspense-thriller">
+          <a class="movie-poster" href="movie-0006.html" aria-label="安全没有保障">
+            <img src="./6.jpg" alt="安全没有保障" loading="lazy">
+            <span class="poster-overlay">立即观看</span>
+          </a>
+          <div class="movie-card-body">
+            <a class="movie-title" href="movie-0006.html">安全没有保障</a>
+            <p class="movie-desc">杂志社员工追查一则古怪广告——“需要同伴一起回到过去，安全没有保障”。</p>
+            <div class="movie-meta">
+              <span>2024</span>
+              <span>美国</span>
+              <span>8.2</span>
+            </div>
+            <div class="movie-tags"><span>时间旅行</span><span>独立电影</span><span>古怪幽默</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-card data-title="省港风云 中国香港 电影 1988 动作, 犯罪, 剧情 悬疑惊悚 黑帮 卧底 枭雄 港产片黄金时代 兄弟情 动作 犯罪 剧情" data-year="1988" data-category="suspense-thriller">
+          <a class="movie-poster" href="movie-0018.html" aria-label="省港风云">
+            <img src="./18.jpg" alt="省港风云" loading="lazy">
+            <span class="poster-overlay">立即观看</span>
+          </a>
+          <div class="movie-card-body">
+            <a class="movie-title" href="movie-0018.html">省港风云</a>
+            <p class="movie-desc">香港黑帮与省城势力的恩怨纠葛，两个敌对的兄弟却爱上了同一个女人。</p>
+            <div class="movie-meta">
+              <span>1988</span>
+              <span>中国香港</span>
+              <span>8.6</span>
+            </div>
+            <div class="movie-tags"><span>黑帮</span><span>卧底</span><span>枭雄</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-card data-title="侏罗纪世界：统治霸权 美国 电影 2026 动作 / 科幻 / 冒险 科幻奇幻 恐龙 全球统治 基因武器 终极决战 动作 科幻 冒险" data-year="2026" data-category="sci-fi-fantasy">
+          <a class="movie-poster" href="movie-0001.html" aria-label="侏罗纪世界：统治霸权">
+            <img src="./1.jpg" alt="侏罗纪世界：统治霸权" loading="lazy">
+            <span class="poster-overlay">立即观看</span>
+          </a>
+          <div class="movie-card-body">
+            <a class="movie-title" href="movie-0001.html">侏罗纪世界：统治霸权</a>
+            <p class="movie-desc">恐龙不再是岛上囚徒，而是人类统治权的挑战者，全球战场全面开打。</p>
+            <div class="movie-meta">
+              <span>2026</span>
+              <span>美国</span>
+              <span>9.7</span>
+            </div>
+            <div class="movie-tags"><span>恐龙</span><span>全球统治</span><span>基因武器</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-card data-title="花轿泪 中国大陆 电影 1988 剧情 / 历史 科幻奇幻 民国 女性 封建 抗争 悲剧 剧情 历史" data-year="1988" data-category="sci-fi-fantasy">
+          <a class="movie-poster" href="movie-0013.html" aria-label="花轿泪">
+            <img src="./13.jpg" alt="花轿泪" loading="lazy">
+            <span class="poster-overlay">立即观看</span>
+          </a>
+          <div class="movie-card-body">
+            <a class="movie-title" href="movie-0013.html">花轿泪</a>
+            <p class="movie-desc">她被一顶花轿抬进夫家，从此失去了名字，却在漫长的封建礼教磨盘中，碾出了一部无声的反抗史。</p>
+            <div class="movie-meta">
+              <span>1988</span>
+              <span>中国大陆</span>
+              <span>8.1</span>
+            </div>
+            <div class="movie-tags"><span>民国</span><span>女性</span><span>封建</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-card data-title="传教士 美国 电视剧 2026 奇幻、西部、冒险 爱情喜剧 反英雄 神魔 公路片 暴力美学 奇幻 西部 冒险" data-year="2026" data-category="romance-comedy">
+          <a class="movie-poster" href="movie-0008.html" aria-label="传教士">
+            <img src="./8.jpg" alt="传教士" loading="lazy">
+            <span class="poster-overlay">立即观看</span>
+          </a>
+          <div class="movie-card-body">
+            <a class="movie-title" href="movie-0008.html">传教士</a>
+            <p class="movie-desc">一个失去信仰的传教士，发现自己体内寄宿着一个能命令上帝的神秘实体。</p>
+            <div class="movie-meta">
+              <span>2026</span>
+              <span>美国</span>
+              <span>9.6</span>
+            </div>
+            <div class="movie-tags"><span>反英雄</span><span>神魔</span><span>公路片</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-card data-title="罪恶的编年史 西班牙 剧集 2025 惊悚, 犯罪 爱情喜剧 连环杀手 宗教 编年体 反转 惊悚 犯罪" data-year="2025" data-category="romance-comedy">
+          <a class="movie-poster" href="movie-0020.html" aria-label="罪恶的编年史">
+            <img src="./20.jpg" alt="罪恶的编年史" loading="lazy">
+            <span class="poster-overlay">立即观看</span>
+          </a>
+          <div class="movie-card-body">
+            <a class="movie-title" href="movie-0020.html">罪恶的编年史</a>
+            <p class="movie-desc">一本记载了教会三百年间所有未破凶案的密码本落入警探手中，她发现凶手竟从未停止作案。</p>
+            <div class="movie-meta">
+              <span>2025</span>
+              <span>西班牙</span>
+              <span>8.0</span>
+            </div>
+            <div class="movie-tags"><span>连环杀手</span><span>宗教</span><span>编年体</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-card data-title="狼人：身边野兽 英国 / 美国 电影 2025 恐怖, 惊悚 剧情佳作 身体恐怖 心理惊悚 狼人 密室内裤 恐怖 惊悚" data-year="2025" data-category="drama-stories">
+          <a class="movie-poster" href="movie-0003.html" aria-label="狼人：身边野兽">
+            <img src="./3.jpg" alt="狼人：身边野兽" loading="lazy">
+            <span class="poster-overlay">立即观看</span>
+          </a>
+          <div class="movie-card-body">
+            <a class="movie-title" href="movie-0003.html">狼人：身边野兽</a>
+            <p class="movie-desc">一个社畜发现自己新来的完美上司，每到月圆之夜就会变成嗜血狼人，而他无法辞职。</p>
+            <div class="movie-meta">
+              <span>2025</span>
+              <span>英国 / 美国</span>
+              <span>9.1</span>
+            </div>
+            <div class="movie-tags"><span>身体恐怖</span><span>心理惊悚</span><span>狼人</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-card data-title="红门兄弟 中国大陆 剧集 2024 军旅, 剧情, 动作 剧情佳作 消防 兄弟情 成长 热血 军旅 剧情 动作" data-year="2024" data-category="drama-stories">
+          <a class="movie-poster" href="movie-0015.html" aria-label="红门兄弟">
+            <img src="./15.jpg" alt="红门兄弟" loading="lazy">
+            <span class="poster-overlay">立即观看</span>
+          </a>
+          <div class="movie-card-body">
+            <a class="movie-title" href="movie-0015.html">红门兄弟</a>
+            <p class="movie-desc">特勤消防站来了个刺头新兵，他发现自己的顶头上司竟然是当年在火场为了救“宠物狗”而放弃救自己父亲的仇人。</p>
+            <div class="movie-meta">
+              <span>2024</span>
+              <span>中国大陆</span>
+              <span>9.5</span>
+            </div>
+            <div class="movie-tags"><span>消防</span><span>兄弟情</span><span>成长</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-card data-title="池畔谜情 法国/意大利 电影 2019 悬疑/情色/剧情 恐怖灵异 游泳池 富家女 失踪 心理游戏 悬疑 情色 剧情" data-year="2019" data-category="horror-mystery">
+          <a class="movie-poster" href="movie-0010.html" aria-label="池畔谜情">
+            <img src="./10.jpg" alt="池畔谜情" loading="lazy">
+            <span class="poster-overlay">立即观看</span>
+          </a>
+          <div class="movie-card-body">
+            <a class="movie-title" href="movie-0010.html">池畔谜情</a>
+            <p class="movie-desc">富家女在别墅泳池边醒来，身上有伤，闺蜜失踪，而监控显示昨夜只有她自己走出过房间。</p>
+            <div class="movie-meta">
+              <span>2019</span>
+              <span>法国/意大利</span>
+              <span>9.0</span>
+            </div>
+            <div class="movie-tags"><span>游泳池</span><span>富家女</span><span>失踪</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-card data-title="弃宝之岛：遥与魔法镜 日本 电影 / 动画 2025 奇幻 / 冒险 恐怖灵异 少女 被遗忘物 治愈 奇幻 冒险" data-year="2025" data-category="horror-mystery">
+          <a class="movie-poster" href="movie-0022.html" aria-label="弃宝之岛：遥与魔法镜">
+            <img src="./22.jpg" alt="弃宝之岛：遥与魔法镜" loading="lazy">
+            <span class="poster-overlay">立即观看</span>
+          </a>
+          <div class="movie-card-body">
+            <a class="movie-title" href="movie-0022.html">弃宝之岛：遥与魔法镜</a>
+            <p class="movie-desc">少女意外闯入人类丢弃的宝物灵魂安息的岛屿，发现母亲遗物的秘密。</p>
+            <div class="movie-meta">
+              <span>2025</span>
+              <span>日本</span>
+              <span>9.4</span>
+            </div>
+            <div class="movie-tags"><span>少女</span><span>被遗忘物</span><span>治愈</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-card data-title="22个男人 中国大陆 电影 2024 爱情, 喜剧 犯罪谍战 都市 婚恋 大数据 反差 爱情 喜剧" data-year="2024" data-category="crime-war">
+          <a class="movie-poster" href="movie-0005.html" aria-label="22个男人">
+            <img src="./5.jpg" alt="22个男人" loading="lazy">
+            <span class="poster-overlay">立即观看</span>
+          </a>
+          <div class="movie-card-body">
+            <a class="movie-title" href="movie-0005.html">22个男人</a>
+            <p class="movie-desc">恋爱第22次失败后，她竟收到了那22个前男友联手送来的一份“整蛊”大礼。</p>
+            <div class="movie-meta">
+              <span>2024</span>
+              <span>中国大陆</span>
+              <span>8.5</span>
+            </div>
+            <div class="movie-tags"><span>都市</span><span>婚恋</span><span>大数据</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-card data-title="连环计中计 中国大陆 网剧 2025 犯罪悬疑 犯罪谍战 烧脑 多重反转 骗局 警匪 双雄 犯罪悬疑" data-year="2025" data-category="crime-war">
+          <a class="movie-poster" href="movie-0017.html" aria-label="连环计中计">
+            <img src="./17.jpg" alt="连环计中计" loading="lazy">
+            <span class="poster-overlay">立即观看</span>
+          </a>
+          <div class="movie-card-body">
+            <a class="movie-title" href="movie-0017.html">连环计中计</a>
+            <p class="movie-desc">骗子与警察联手设局抓捕黑吃黑，却发现自己正被一个更大的局所吞噬。</p>
+            <div class="movie-meta">
+              <span>2025</span>
+              <span>中国大陆</span>
+              <span>8.9</span>
+            </div>
+            <div class="movie-tags"><span>烧脑</span><span>多重反转</span><span>骗局</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-card data-title="三侠屠龙 中国香港 电影 1981 武侠 动画家庭 侠客 屠龙 阴谋 三主角 古龙风 武侠" data-year="1981" data-category="animation-family">
+          <a class="movie-poster" href="movie-0012.html" aria-label="三侠屠龙">
+            <img src="./12.jpg" alt="三侠屠龙" loading="lazy">
+            <span class="poster-overlay">立即观看</span>
+          </a>
+          <div class="movie-card-body">
+            <a class="movie-title" href="movie-0012.html">三侠屠龙</a>
+            <p class="movie-desc">三个互不相识的侠客同时接到“屠龙令”追杀同一个人，但他们发现目标竟是十年前拯救过自己的恩人。</p>
+            <div class="movie-meta">
+              <span>1981</span>
+              <span>中国香港</span>
+              <span>8.4</span>
+            </div>
+            <div class="movie-tags"><span>侠客</span><span>屠龙</span><span>阴谋</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-card data-title="重返地球 美国 电影 2013 科幻, 冒险 动画家庭 末日 父子 生存 怪兽 环保隐喻 科幻 冒险" data-year="2013" data-category="animation-family">
+          <a class="movie-poster" href="movie-0024.html" aria-label="重返地球">
+            <img src="./24.jpg" alt="重返地球" loading="lazy">
+            <span class="poster-overlay">立即观看</span>
+          </a>
+          <div class="movie-card-body">
+            <a class="movie-title" href="movie-0024.html">重返地球</a>
+            <p class="movie-desc">人类逃离地球一千年后，一对父子奉命返回，发现统治地球的不是怪兽，而是人类留下的“塑料生命体”。</p>
+            <div class="movie-meta">
+              <span>2013</span>
+              <span>美国</span>
+              <span>8.8</span>
+            </div>
+            <div class="movie-tags"><span>末日</span><span>父子</span><span>生存</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-card data-title="雷神索尔3：诸神黄昏 美国 电影 2027 动作 / 奇幻 纪录音乐 北欧神话 末世 神魔大战 父女 动作 奇幻" data-year="2027" data-category="documentary-music">
+          <a class="movie-poster" href="movie-0007.html" aria-label="雷神索尔3：诸神黄昏">
+            <img src="./7.jpg" alt="雷神索尔3：诸神黄昏" loading="lazy">
+            <span class="poster-overlay">立即观看</span>
+          </a>
+          <div class="movie-card-body">
+            <a class="movie-title" href="movie-0007.html">雷神索尔3：诸神黄昏</a>
+            <p class="movie-desc">索尔之女继承雷神之力，却发现诸神黄昏的真正预言不是诸神陨落，而是诸神本就不该存在。</p>
+            <div class="movie-meta">
+              <span>2027</span>
+              <span>美国</span>
+              <span>9.9</span>
+            </div>
+            <div class="movie-tags"><span>北欧神话</span><span>末世</span><span>神魔大战</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-card data-title="午夜雄鹰 日本 电影 2024 科幻 纪录音乐 战争 机甲 反战 剧情 科幻" data-year="2024" data-category="documentary-music">
+          <a class="movie-poster" href="movie-0019.html" aria-label="午夜雄鹰">
+            <img src="./19.jpg" alt="午夜雄鹰" loading="lazy">
+            <span class="poster-overlay">立即观看</span>
+          </a>
+          <div class="movie-card-body">
+            <a class="movie-title" href="movie-0019.html">午夜雄鹰</a>
+            <p class="movie-desc">二战末期，日本秘密研制了一台能穿越时间的机甲“雄鹰号”，一个被征召的少年兵用它看到了战争的真相与未来。</p>
+            <div class="movie-meta">
+              <span>2024</span>
+              <span>日本</span>
+              <span>8.3</span>
+            </div>
+            <div class="movie-tags"><span>战争</span><span>机甲</span><span>反战</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-card data-title="平行线、事件、民众 日本 剧集 2018 悬疑, 科幻 亚洲影视 社会派 多线叙事 政治惊悚 平行宇宙 悬疑 科幻" data-year="2018" data-category="asian-focus">
+          <a class="movie-poster" href="movie-0002.html" aria-label="平行线、事件、民众">
+            <img src="./2.jpg" alt="平行线、事件、民众" loading="lazy">
+            <span class="poster-overlay">立即观看</span>
+          </a>
+          <div class="movie-card-body">
+            <a class="movie-title" href="movie-0002.html">平行线、事件、民众</a>
+            <p class="movie-desc">三条看似无关的平行故事线因一起地铁炸弹案交错，揭开政府操控民众记忆的惊天阴谋。</p>
+            <div class="movie-meta">
+              <span>2018</span>
+              <span>日本</span>
+              <span>9.4</span>
+            </div>
+            <div class="movie-tags"><span>社会派</span><span>多线叙事</span><span>政治惊悚</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-card data-title="奔跑的修女 意大利 电影 2025 喜剧, 冒险, 剧情 亚洲影视 修女 马拉松 信仰与自由 女性力量 喜剧 冒险 剧情" data-year="2025" data-category="asian-focus">
+          <a class="movie-poster" href="movie-0014.html" aria-label="奔跑的修女">
+            <img src="./14.jpg" alt="奔跑的修女" loading="lazy">
+            <span class="poster-overlay">立即观看</span>
+          </a>
+          <div class="movie-card-body">
+            <a class="movie-title" href="movie-0014.html">奔跑的修女</a>
+            <p class="movie-desc">一名古板的修女为保住孤儿院，被迫参加城市马拉松，意外跑出了神迹。</p>
+            <div class="movie-meta">
+              <span>2025</span>
+              <span>意大利</span>
+              <span>9.8</span>
+            </div>
+            <div class="movie-tags"><span>修女</span><span>马拉松</span><span>信仰与自由</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-card data-title="速度 美国 电影 1994 动作，惊悚 欧美片库 公交车 炸弹 限速 经典 动作 惊悚" data-year="1994" data-category="global-cinema">
+          <a class="movie-poster" href="movie-0009.html" aria-label="速度">
+            <img src="./9.jpg" alt="速度" loading="lazy">
+            <span class="poster-overlay">立即观看</span>
+          </a>
+          <div class="movie-card-body">
+            <a class="movie-title" href="movie-0009.html">速度</a>
+            <p class="movie-desc">警探杰克必须让一辆公交车时速保持在50英里以上，否则炸弹就会引爆。</p>
+            <div class="movie-meta">
+              <span>1994</span>
+              <span>美国</span>
+              <span>9.3</span>
+            </div>
+            <div class="movie-tags"><span>公交车</span><span>炸弹</span><span>限速</span></div>
+          </div>
+        </article>
+        <article class="movie-card compact" data-card data-title="古墓入侵者 美国 电影 2025 动作，冒险 欧美片库 盗墓 考古 机关 寻宝 夺宝奇兵 动作 冒险" data-year="2025" data-category="global-cinema">
+          <a class="movie-poster" href="movie-0021.html" aria-label="古墓入侵者">
+            <img src="./21.jpg" alt="古墓入侵者" loading="lazy">
+            <span class="poster-overlay">立即观看</span>
+          </a>
+          <div class="movie-card-body">
+            <a class="movie-title" href="movie-0021.html">古墓入侵者</a>
+            <p class="movie-desc">一个由小偷、黑客和考古学家组成的杂牌军，为了阻止文物走私，抢先闯入秦始皇的真实地宫。</p>
+            <div class="movie-meta">
+              <span>2025</span>
+              <span>美国</span>
+              <span>9.7</span>
+            </div>
+            <div class="movie-tags"><span>盗墓</span><span>考古</span><span>机关</span></div>
+          </div>
+        </article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a class="brand-link footer-logo" href="index.html">
+          <span class="brand-mark">▶</span>
+          <span class="brand-text">精选电影大全</span>
+        </a>
+        <p>提供精选电影大全栏目内容，整合热门、经典和高分影片，片库内容持续补充。</p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <h2>片库入口</h2>
+          <a href="category-hot-selection.html">热门精选</a>
+          <a href="category-action-adventure.html">动作冒险</a>
+          <a href="category-suspense-thriller.html">悬疑惊悚</a>
+          <a href="category-sci-fi-fantasy.html">科幻奇幻</a>
+          <a href="category-romance-comedy.html">爱情喜剧</a>
+          <a href="category-drama-stories.html">剧情佳作</a>
+        </div>
+        <div>
+          <h2>热门内容</h2>
+          <a href="ranking.html">热门排行榜</a>
+          <a href="search.html">影片搜索</a>
+          <a href="categories.html">全部分类</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 精选电影大全</div>
+  </footer>
+  <script src="./assets/js/site.js" defer></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
