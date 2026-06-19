@@ -1,16 +1,11 @@
-﻿# website-upload-20260530-164901-212
+影视推荐榜 静态站
 
-Batch 212 of 43. Contains extracted static website versions. The original zip files are not committed.
+打开 index.html 即可浏览首页。
 
-| Directory | Source zip |
-| --- | --- |
-| version-2111 | project-bolt-sb1-pzzxqcmp - 副本-chatgpt (1) (moved 2).zip |
-| version-2112 | project-bolt-sb1-pzzxqcmp-chatgpt (1) (moved 2).zip |
-| version-2113 | project-bolt-sb1-q1bbjagy - 副本-chatgpt (1) (moved 2).zip |
-| version-2114 | project-bolt-sb1-q1bbjagy-chatgpt (1) (moved 2).zip |
-| version-2115 | project-bolt-sb1-q1bbjagy-chatgpt (1) (moved 3).zip |
-| version-2116 | project-bolt-sb1-q2i4cq2v - 副本-chatgpt (1) (moved 1).zip |
-| version-2117 | project-bolt-sb1-q2i4cq2v-chatgpt (1) (moved 2).zip |
-| version-2118 | project-bolt-sb1-q2i4cq2v-chatgpt (1) (moved 3).zip |
-| version-2119 | project-bolt-sb1-q4cb9fx1 - 副本-chatgpt (1) (moved 1).zip |
-| version-2120 | project-bolt-sb1-q4cb9fx1 - 副本-chatgpt (1) (moved 2).zip |
+目录说明：
+- assets/ 共享样式、脚本与搜索目录
+- category/ 分类页
+- video/ 详情页
+- sitemap.xml / robots.txt 站点地图与搜索引导
+
+本包基于上传的 TXT / JS / CSS 素材生成。
